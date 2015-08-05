@@ -14,6 +14,7 @@ public class PageObjectTest {
 
     LoginPage page ;
     WebDriver driver;
+
     @Before
     public void before(){
         driver = new FirefoxDriver();
